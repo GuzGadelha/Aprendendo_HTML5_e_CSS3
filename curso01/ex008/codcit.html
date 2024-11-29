@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> è um codigo em JavaScript</p>
+    <p>usando a tag &ltcode&gt fazemos a formatação ser de mais fácil leitura</p>
+    <p>Entretanto para codigos grandes não vai funcionar, pois não copia a identação, exemplo: <br> 
+    <code>
+    num = int(input('Digite um número'))
+    if num % 2 == ;
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} è IMPAR')
+    print('Fim do programa')
+    </code>
+    </p>
+    <p>Por causa disso usamos a tag &ltpre&gt, exemplo:</p>
+    <pre>
+        <code>
+        num = int(input('Digite um número'))
+            if num % 2 == ;
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num} è IMPAR')
+        print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria p pai de um amigo: <q>O computador é um burro muito rápido</q>, para fazer isso basta usar a tag &ltq&gt</p>
+    <h2>Citações completas</h2>
+    <p>Alem de fazer uma citação simples podemos fazer uma citação em bloco</p>
+    <blockquote cite="https://www.pensador.com/frase/NTMwODg4/#:~:text=Se%20a%20m%C3%BAsica%20%C3%A9%20o%20alimento%20do%20amor%20n%C3%A3o%20parem,mate%20de%20n%C3%A1usea%20o%20apetite.">
+        Se a música é o alimento do amor não parem de tocar. Dêem-me música em excesso; tanta que, depois de saciar, mate de náusea o apetite.
+    </blockquote>
+    <p>Usando o parâmetro cite, podemos colocar o link de onde a citação foi tirada, visualmente nada acontece, porem o site vai saber que a citação foi tirada de algum canto </p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style SHeets">CSS</abbr></p>
+    <p>Passando o mouse em cima de HTML e CSS escritos acima conseguimos ver o significado da sigla, fazemos isso com a tag &lt;abbr&gt;</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Podemos deixar o texto invertido tambem usando a tag &lt;bdo&gt;</bdo></p>
+</body>
+</html>
