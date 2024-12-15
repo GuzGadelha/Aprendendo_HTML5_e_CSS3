@@ -24,4 +24,23 @@ p {
 
 #principal {
     text-align: center;
+    color: white;
+    background-color: rgb(39, 71, 60);
+    font-weight: normal;
+}
+
+.basico {
+    color: rgb(107, 172, 107);
+}
+
+.intermediario {
+    color: rgb(197, 197, 112);
+}
+
+.avancado {
+    color: rgb(250, 99, 99);
+}
+
+.destaque {
+    background-color: rgba(255, 255, 255, 0.248);
 }
