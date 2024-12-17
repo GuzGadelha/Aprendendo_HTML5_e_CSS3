@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+}
+
+nav > a {
+    font-family: ;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+article {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: rgb(165, 165, 165);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.idnumber {
+    color: rgb(154, 154, 154);
+}
+
+.nomepkm {
+    text-align: center;
+}
+
+article > div {
+    display: inline-block;
+
+}
+
+div {
+    display: inline-block;
+}
+
+div > img {
+    margin: 30px;
+}
+
+div.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 178, 228);
+    padding: 10px;
+    margin-left: 200px;
+}
