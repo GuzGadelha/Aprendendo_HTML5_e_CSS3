@@ -4,47 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Tags</title>
-    <link rel="stylesheet" href="pkmstyles.css">
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 1px rgb(137, 136, 136);
+        }
+       
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px ;
+            box-shadow: 2px 2px 2px rgb(75, 75, 75);
+        }
+        
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        
+        article > aside {
+            background-color: rgb(165, 165, 165);
+            text-align: right;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Página da Pokedex</h1>
+        <h1>Meu Site</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">1° Geração</a>
-            <a href="#">2° Geração</a>
-            <a href="#">3° Geração</a>
-            <a href="#">4° Geração</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
         </nav>
     </header>
     <main>
-        <section id="assuntos">
-            <p class="idnumber">ID = N°0527</p>
+        <section id="Assuntos">
+            <p>Esportes | Política | Tecnologia</p>
         </section>
         <section id="Notícias">
             <article>
-                <h2 class="nomepkm">Woobat</h2>
-                <div>
-                    <img src="woobat.png" alt="woobat">
-                </div>
-                <div class="info" > 
-                    <p>Altura = 0.4m <br>
-                    Peso = 2.1Kg<br>
-                    Categoria = Morcego<br>
-                    Habilidades = Unaware</p>
-                </div>
-                <ul>
-                    <li>Enquanto estiver dentro de uma caverna, se você olhar para cima e ver muitas marcas em forma de coração revestindo as paredes, é uma evidência de que Woobat vive lá.</li>
-                    <li>Ele emite ondas ultrassônicas enquanto flutua, procurando por sua presa - Pokémon inseto.</li>
-                </ul>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laudantium quo voluptas ipsum sed! Blanditiis commodi, ea tempore unde eligendi fuga modi cupiditate, placeat porro sunt, alias recusandae ducimus necessitatibus!</p>
                 <aside>
-                    <p>Artigo por Gustavo Gadelha Silva</p>
+                    <p>Artigo escrito por GuzGadelha</p>
                 </aside>
+            </article>
+            <article>
+
             </article>
         </section>
     </main>
     <footer>
-        <p>Desenvolvido pelo GuzGadelha</p>
+        <p>Desenvolvido por GuzGadelha</p>
     </footer>
 </body>
 </html>
